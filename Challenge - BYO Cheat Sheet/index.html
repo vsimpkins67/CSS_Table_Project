@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <title> Cheatsheet: Improved CSS styling</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Quicksand:wght@300;500;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Challenge Project: Build Your Own Cheatsheet</h1>
+    <h2> Section 7.2: Improved CSS Styling | Element Code Reference - Color & Typography </h2>
+
+<!-- Table 1: Color-->
+<div>
+    <div class="heading_banner">       
+        <h3> CSS: Color </h3>
+    </div>
+    <table>
+    <thead>
+        <tr>
+            <th> Element </th>
+            <th> Description </th>
+            <th> Arguments </th>
+            <th> Example (Input) </th>
+            <th> Example (output) </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="code-text"> color: </td>
+            <td> Styles the color of an element (foreground). </td>
+            <td> Name, hexadecimal, rgb(a), or hsl(a) </td>
+            <td class="code-text"> color: blue; </td>
+            <td id="c_row1"> Example </td>
+        </tr>
+            <td class="code-text"> background-color: </td>
+            <td> Styles the background color of an element (background).</td>
+            <td> Name, hexadecimal, rgb(a), or hsl(a) </td>
+            <td class="code-text"> background-color: lavenderblush;</td>
+            <td id="c_row2"> Example </td>
+        <tr>
+            <td class="code-text"> color:#000000; </td>
+            <td> Hexadecimal code, reprsentative of color. </td>
+            <td> 6 digit string: 0-9, A-F. </td>
+            <td class="code-text"> color: #9F0ECB; </td>
+            <td id="c_row3"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> color: rgb( x, y, z);</td>
+            <td> Red, Blue, Green code, representative of color.</td>
+            <td> x,y & z are integers in [0, 255].</td>
+            <td class="code-text"> color: rbg( 255, 0, 120); </td>
+            <td id="c_row4"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> color: hsl( x, y, z);</td>
+            <td> Hue, Saturation, Lightness code, representative of color.</td>
+            <td> x is an integer in [0,360]. y and z are percentages in [0%, 100%].</td>
+            <td class="code-text"> color: hsl( 209, 92%, 33%); </td>
+            <td id="c_row5"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> color: rgba( x, y, z, a);</td>
+            <td> Red, Green, Blue, Alpha code. Similar to rgb, but includes a for opacity.</td>
+            <td> x, y & z are integers in [0, 360]. a is in [0,1].</td>
+            <td class="code-text"> color: rgba( 255, 252, 0, 0.5); </td>
+            <td id="c_row6"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> color: hsla( x, y, z, a);</td>
+            <td> Hue, Saturation, Lightness, Alpha code. Similar to hsl, but includes a for opacity.</td>
+            <td> x is an integer in [0,360], y and z are percentages in [0%, 100%], and a is in [0,1].</td>
+            <td class="code-text"> color: hsla( 258, 77, 50, 0.5); </td>
+            <td id="c_row7"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> color: transparent; </td>
+            <td> Gives an element an opacity of 0, rendering it transparent. </td>
+            <td> N/A </td>
+            <td class="code-text"> color: transparent; </td>
+            <td id="c_row8"> Example </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<h1 class="space"> EMPTY SPACE </h1>
+
+<!-- Table 2: Typography -->
+<div>
+    <div class="heading_banner">      
+        <h3> CSS: Typography </h3>
+    </div>
+    <table>
+    <thead>
+         <tr>
+            <th> Element </th>
+            <th> Description </th>
+            <th> Arguments </th>
+            <th> Example (Input) </th>
+            <th> Example (output) </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="code-text"> font-family: </td>
+            <td> Selects a font. </td>
+            <td> 'Times New Roman', Helvetica, Candara, etc.</td>
+            <td class="code-text"> font-family: Garamond;</td>
+            <td id="t_row1"> Example </td>
+        </tr>
+            <td class="code-text"> font-family: x, y, z; </td>
+            <td> Selects a font, x, with back-up font y and additional back-up font type z.</td>
+            <td> x and y are font names, z is either serif or sans-serif.</td>
+            <td class="code-text"> font-family: 'Times New Roman', 'Georgia', serif; </td>
+            <td id="t_row2"> Example </td>
+        <tr>
+            <td class="code-text"> font-weight; </td>
+            <td> Controls how thin or thick text appears. </td>
+            <td> bold, normal, lighter, bolder, or an interger value in [1,1000]. </td>
+            <td class="code-text"> font-weight: 800; </td>
+            <td id="t_row3"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> font-style: italic; </td>
+            <td> Italicizes text. </td>
+            <td> N/A </td>
+            <td class="code-text"> font-style: italic; </td>
+            <td id="t_row4"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> text-transform: </td>
+            <td> Transforms text to either all uppercase or all lowercase. </td>
+            <td> uppercase or lowercase. </td>
+            <td class="code-text"> text-transform: uppercase; </td>
+            <td id="t_row5"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> letter-spacing: </td>
+            <td> Changes the space between letter of text. </td>
+            <td> px or em (em is recommended). </td>
+            <td class="code-text"> letter-spacing: 1.3em;</td>
+            <td id="t_row6"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> word-spacing: </td>
+            <td> Changes the space between words of text. </td>
+            <td> px or em (em is recommended). </td>
+            <td class="code-text"> word-spacing: 30px; </td>
+            <td id="t_row7"> Example Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> line-height:</td>
+            <td> Changes height of the line containing text. </td>
+            <td> px, em, %, or a unitless value (unitless value is recommended, as it multiplies the default). </td>
+            <td class="code-text"> line-height: 1.5; </td>
+            <td id="t_row8"> Example </td>
+        </tr>
+        <tr>
+            <td class="code-text"> text-align: </td>
+            <td> Aligns text. </td>
+            <td> Left (default), right, center, or justify. </td>
+            <td class="code-text"> text-align: center; </td>
+            <td id="t_row9"> Example </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<h1 class="space"> EMPTY SPACE </h1>
+
+<footer>
+    <p> Created by: Victoria Simpkins | 9.24.2022 </p>
+</footer>
+
+
+
+</body>
+</html>

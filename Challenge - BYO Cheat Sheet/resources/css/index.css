@@ -1,0 +1,173 @@
+
+h1 {
+    text-align: center;
+    margin: 50px 300px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: 1px rgb(66, 66, 66);
+    border-style: solid none;
+    font-size: 58pt;
+    font-weight: 300;
+    letter-spacing: 0.3;
+}
+
+h2 {
+    text-align: center;
+    margin: 100px auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24pt;
+    font-weight: 200;
+    letter-spacing: 0.4;
+    word-spacing: 0.4;
+    background-color: #EDEDEDED;
+}
+
+h3 {
+    margin: 25px 0px;
+    line-height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 46pt; 
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.heading_banner {
+    border: 2px solid #807499;
+    width: 85%;
+    background-color: #C7C0D6;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.space {
+    color: transparent;
+    margin: 10px;
+    border: none;
+}
+
+td {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    border: 1px solid #b1b1b1;
+    font-size: 14pt;
+    background-color:rgb(243, 243, 243);
+    border-radius: 2px;
+}
+
+th {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    background-color: #d0d0d0;
+    font-size: 18pt;
+}
+
+.code-text {
+    border: 0.5px solid #F5F5F5;
+    background-color: #7D7D7d;
+    color: #F4F4F4;
+    font-family: 'Courier Prime', monospace;
+}
+
+footer {
+    background-color: #c9b5de;
+    color: #563975;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.4;
+    word-spacing: 0.3;
+    text-align: right;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+#c_row1 {
+    color: blue;
+}
+
+#c_row2 {
+    background-color: lavenderblush; 
+}
+
+#c_row3 {
+    color: #9F0ECB   
+}
+
+#c_row4 {
+    color: rbg( 255, 0, 120);  
+}
+
+#c_row5 {
+    color: hsl( 209, 92%, 33%);  
+}
+
+#c_row6 {
+    color: rgba( 255, 252, 0, 0.5);
+}
+
+#c_row7 {
+    color: hsla( 258, 77, 50, 0.5); 
+}
+
+#c_row8 {
+    color: transparent; 
+}
+
+#t_row1 {
+    font-family: Garamond;
+}
+
+#t_row2 {
+    font-family: 'Times New Roman', 'Georgia', serif; 
+}
+
+#t_row3 {
+    font-weight: 800;
+}
+
+#t_row4 {
+    font-style: italic;
+}
+
+#t_row5 {
+    text-transform: uppercase;
+}
+
+#t_row6 {
+    letter-spacing: 1.3em;
+}
+
+#t_row7 {
+    word-spacing: 30px;
+}
+
+#t_row8 {
+    line-height: 1.5;
+}
+
+#t_row9 {
+    text-align: center;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
